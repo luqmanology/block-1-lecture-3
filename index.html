@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLock 1 Lecture 3</title>
+</head>
+<body>
+     <form>
+         <!-- hidden fields are used to valid that the form is from the person you sent the page to -->
+        <input type="hidden" id="form-id" value="eb892d8301ce8382848284291894194914191041100101affff"/>
+        <!-- form fields -->
+        <label for="my-text">Enter some text:</label>
+        <input type="text" name="my-text" id="my-text"/><br/>
+        Website: <input type="text" name="website"/><br/>
+        Computer: <input type="text" name="computer"/><br/>
+        <label for="my-password">Password:</label>
+        <input type="password" name="password" id="my-password"/><br/>
+        <input type="radio" name="gender" id="male" value="m"/>
+        <label for="male">Male</label><br/>
+        <input type="radio" name="gender" id="female" value="f"/>
+        <label for="female">Female</label><br/>
+
+        <!-- <input type="radio" name="season" value="spring">Spring<br/>
+        <input type="radio" name="season" value="summer">Summer<br/>
+        <input type="radio" name="season" value="fall">Fall<br/>
+        <input type="radio" name="season" id="winter">Winter<br/> -->
+
+        <input type="checkbox" name="season" value="spring">Spring<br/>
+        <input type="checkbox" name="season" value="summer">Summer<br/>
+        <input type="checkbox" name="season" value="fall">Fall<br/>
+        <input type="checkbox" name="season" id="winter">Winter<br/>
+
+        <label for="my-text-area">Enter some text:</label>
+        <textarea name="my-big-text" id="my-text-area">Enter your text here</textarea>
+
+        <hr>
+        <select name="select-food[]" id="" multiple="multiple">
+            <option value="mex">Mexican</option>
+            <option value="chn">Chinese</option>
+            <option value="vit">Vietnames</option>
+            <option value="ind">Indian</option>
+
+    </select><br/>
+    <input type="submit"/>
+    <input type="reset"/>
+     </form>
+   
+
+    
+</body>
+</html>
+
